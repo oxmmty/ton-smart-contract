@@ -11,6 +11,7 @@ const muteLogCodeCost = false
 const muteLogFees = false
 
 
+
 export function bodyOp(op: number): (body: Cell | undefined) => boolean {
     return (body: Cell | undefined): boolean => {
         if (body == null) {
